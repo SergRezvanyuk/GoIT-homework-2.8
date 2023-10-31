@@ -4,7 +4,7 @@ from mongoengine import connect
 from models import Author, Quote
 
 
-connect('GoIT8', host='mongodb://localhost/my_database')
+connect(db='GoIT8', host="mongodb+srv://rezvaserg:****@cluster0.5izpshs.mongodb.net/GoIT8?retryWrites=true&w=majority")
 
 
 
